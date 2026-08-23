@@ -3,6 +3,18 @@
   "version": "0.1.0",
   "description": "Pi extension with live run timing and user/agent timestamps",
   "type": "module",
+  "author": {
+    "name": "roldan",
+    "url": "https://github.com/roldan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roldan/pi-run-timestamps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roldan/pi-run-timestamps/issues"
+  },
+  "homepage": "https://github.com/roldan/pi-run-timestamps#readme",
   "private": false,
   "license": "MIT",
   "keywords": ["pi-package", "pi", "extension", "timestamp", "timer"],
