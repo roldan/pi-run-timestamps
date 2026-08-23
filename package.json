@@ -1,0 +1,24 @@
+{
+  "name": "pi-run-timestamps",
+  "version": "0.1.0",
+  "description": "Pi extension with live run timing and user/agent timestamps",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "keywords": ["pi-package", "pi", "extension", "timestamp", "timer"],
+  "files": ["index.ts", "README.md", "LICENSE"],
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": { "optional": true },
+    "@earendil-works/pi-tui": { "optional": true }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}
